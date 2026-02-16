@@ -1,0 +1,5 @@
+<linker>
+  <assembly fullname="Google.XR.Cardboard" preserve="all"/>
+  <assembly fullname="Unity.XR.Management" preserve="all"/>
+  <assembly fullname="Unity.XR.CoreUtils" preserve="all"/>
+</linker>

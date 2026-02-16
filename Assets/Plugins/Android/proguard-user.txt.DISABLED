@@ -1,0 +1,9 @@
+-keep class com.google.cardboard.** { *; }
+-keep class com.google.gvr.** { *; }
+-keep interface com.google.gvr.** { *; }
+-keep class com.google.vr.** { *; }
+-keep class com.unity3d.player.** { *; }
+-keepattributes *Annotation*
+-dontwarn com.google.cardboard.**
+-keep public class * extends android.app.Activity
+-keep class com.google.cardboard.sdk.QrCodeCaptureActivity { *; }
